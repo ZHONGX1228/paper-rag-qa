@@ -65,11 +65,8 @@ pip install -r requirements.txt
 
 ### 2. Set up Ollama and the LLM
 
-Install [Ollama](https://ollama.com/), then pull the model:
+Install [Ollama](https://ollama.com/), then pull the LLM model
 
-```bash
-ollama pull qwen2.5:7b
-```
 
 ### 3. Build the index (first time only)
 
@@ -110,4 +107,4 @@ PAPER_RAG_ONLINE=1 streamlit run app.py
 
 ## Author
 
-ZHONG Yunzhang (papers published under former name Xin Zhong)
+ZHONG
