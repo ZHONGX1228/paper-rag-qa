@@ -1,0 +1,8 @@
+streamlit
+numpy
+torch
+sentence-transformers
+qdrant-client
+rank-bm25
+pymupdf
+ollama

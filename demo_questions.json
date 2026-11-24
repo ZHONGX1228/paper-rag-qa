@@ -1,0 +1,50 @@
+[
+  {
+    "step": 1,
+    "category": "日本語で質問",
+    "question": "日本市場で、流動性ファクターが有効なのはどんな相場ですか？",
+    "point": "論文は英語ですが、日本語で質問できます。回答には論文名とページが付きます。",
+    "role": "researcher",
+    "compare": false
+  },
+  {
+    "step": 2,
+    "category": "数値の正確さ",
+    "question": "主成分分析で、上位2つの主成分は流動性指標の変動の何%を説明しましたか？",
+    "point": "数字も正確に答えます。参照元を開くと、原文で確認できます。",
+    "role": "researcher",
+    "compare": false
+  },
+  {
+    "step": 3,
+    "category": "アクセス制御",
+    "question": "中国市場で、2009年の取引システム更新の後、VPINと流動性の関係はどう変わりましたか？",
+    "point": "同じ質問でも、権限によって結果が変わります。外部ユーザーには未公開論文が見えません。",
+    "role": "researcher",
+    "compare": true
+  },
+  {
+    "step": 4,
+    "category": "範囲外の質問",
+    "question": "日本銀行の現在の政策金利は何ですか？",
+    "point": "文書にない質問には答えません。ハルシネーションを防ぐためです。",
+    "role": "researcher",
+    "compare": false
+  },
+  {
+    "step": 5,
+    "category": "英語で質問（予備）",
+    "question": "Which algorithm was used to define bull and bear markets in Japan?",
+    "point": "英語の専門用語は、キーワード検索（BM25）でも探しています。",
+    "role": "researcher",
+    "compare": false
+  },
+  {
+    "step": 6,
+    "category": "数値の正確さ（予備）",
+    "question": "4つの流動性リスクをすべて入れたLCAPMの説明力（調整済みR2）は何%ですか？",
+    "point": "別の論文の数値も、ページ付きで答えます。",
+    "role": "researcher",
+    "compare": false
+  }
+]
